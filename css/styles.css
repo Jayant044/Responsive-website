@@ -1,0 +1,164 @@
+#title {
+    background-color: #ff4c68;
+    padding-bottom: 80px;
+}
+
+body {
+    font-family: montserrat;
+    font-weight: 500;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+    padding-top: 0%;
+}
+
+h1 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
+    margin-bottom: 8%;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+p {
+    color: #8f8f8f;
+    font-family: ubuntu;
+    font-weight: 600;
+}
+
+.navbar {
+    font-size: large;
+    margin-bottom: 8%;
+}
+
+.navbar-brand {
+    font-family: ubuntu;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.title-image {
+    width: 20%;
+    transform: rotate(30deg);
+    position: absolute;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box    {
+    text-align: center;
+    padding: 5%;
+}
+
+.emoji {
+    
+    margin: 0px;
+    margin-bottom: 1rem;
+    font-size: 80px;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.tag {
+    font-size: 0.9rem;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.press-logo {
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 7% 20%;
+    text-align: center;
+}
+
+.price {
+    padding: 0 7% 10%;
+}
+
+#cta {
+    background-color: #ff4c68;
+    padding: 8% 15%;
+    text-align: center;
+}
+
+.cta-h {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
+    margin-bottom: 8%;
+}
+
+#footer {
+    text-align: center;
+    padding: 7% 15% 0;
+}
+
+@media (max-width: 992px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 80%;
+        padding-top: 40px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .tag {
+        font-size: 10px;
+    }
+
+    .cta-h {
+        font-size: 35px;
+    }
+
+}
